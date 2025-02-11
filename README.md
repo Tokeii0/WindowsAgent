@@ -1,7 +1,6 @@
 # WindowsAgent
 
-
-## 系统架构
+这是一个使用RSA加密和会话密钥保护的远程PowerShell命令执行系统，让您能够安全地在远程Windows服务器上执行PowerShell命令并获取结果。
 
 ### 核心组件
 1. **服务器端** (`agent_main.py`)
@@ -24,9 +23,10 @@
    - 创建部署包
    - 分发公钥和私钥
 
-## 安全通信流程
+## Agent流程
 
-![_- visual selection](https://github.com/user-attachments/assets/91b47b2d-868f-4bcf-9e18-449614fafa44)
+
+![_- visual selection (1)](https://github.com/user-attachments/assets/0ebc3c28-fea3-4692-82bb-d4f8d0995b97)
 
 
 ## 部署说明
